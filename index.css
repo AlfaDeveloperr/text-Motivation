@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    height: 62.5%;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+    background-color: brown;
+    object-fit: cover;
+    background-image: url("https://image.milimaj.com/i/milliyet/75/0x0/60617d7b554282184821cda1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section .container .text {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+@media screen and (max-width:600px) {
+    .section {
+        object-fit: cover;
+        /* object-fit: cover;
+        background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Ftr.lovepik.com%2Fimages%2Fbackgrounds-2661854.html&psig=AOvVaw3iIU5Io3-i8jeMjGjifzK_&ust=1709195448889000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPCNnq7PzYQDFQAAAAAdAAAAABAF");
+        background-size: cover;
+        background-repeat: no-repeat; */
+    }
+
+    .section .container .text {
+        color: #fff;
+        font-size: 2.5rem;
+    }
+}
